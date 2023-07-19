@@ -370,7 +370,7 @@ header {
   justify-content: space-between;
 }
 .locations p {
-  text-align: left;
+  text-align: right;
 }
 /*=============== FOOTER ===============*/
 footer {
@@ -546,8 +546,8 @@ footer {
   .featured-bottom-img {
     left: 5%;
     bottom: -5%;
-    width: 114px;
-    height: 133px;
+    width: 100px;
+    height: 125px;
   }
   .featured-img {
     width: 80%;
@@ -562,8 +562,7 @@ footer {
     margin: 0 auto;
   }
   .bottom-2 {
-    /* right: 5%; */
-    right: 1%;
+    right: 5%;
     left: auto;
     bottom: -5%;
   }
