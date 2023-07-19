@@ -636,10 +636,25 @@ footer {
   .container {
     width: 91%;
   }
-  .nav {
+  header {
     position: static;
+  }
+  .nav {
     flex-direction: column;
     gap: 1.5rem;
+  }
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .cards > .card {
+    flex-basis: calc(40% - 1rem);
+    position: relative;
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1100px) {
