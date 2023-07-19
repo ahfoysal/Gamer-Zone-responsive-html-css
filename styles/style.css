@@ -320,7 +320,11 @@ header {
   background-position: center right, center center;
   background-size: 55% 100%, auto auto;
 }
-.buttons .btn {
+.career-img {
+  width: 100%;
+  animation: floating 2s ease-in-out infinite;
+}
+.buttons .btn-career {
   color: #ff42a5;
   background-color: white;
 }
@@ -416,7 +420,7 @@ footer {
 @media only screen and (max-width: 576px) {
   .container {
     width: 91%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }
   section {
     padding: 4.5rem 0 2rem;
@@ -465,7 +469,7 @@ footer {
   }
 
   .hero-content {
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
   }
   .hero-content:nth-child(1) {
     background-image: url("../images/Group 14.png");
@@ -479,7 +483,7 @@ footer {
     font-size: 2rem;
   }
   .hero-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .hero-content a {
     font-size: 1rem;
@@ -517,7 +521,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 1.5rem;
+    padding: 0 0.5rem;
   }
 
   /* FEATURED */
@@ -533,9 +537,9 @@ footer {
     text-align: center;
     padding: 0 2rem;
   }
-  .featured-content:nth-child(3) h2 {
+  /* .featured-content:nth-child(3) h2 {
     padding: 0 1.5rem;
-  }
+  } */
   .featured-content p {
     text-align: center;
   }
@@ -554,6 +558,10 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  .featured-content:nth-child(3) {
+    width: 10rem;
+    margin: 0 auto;
+  }
   .featured2 {
     display: flex;
     flex-direction: column-reverse;
@@ -564,7 +572,7 @@ footer {
     padding: 0.5rem 0;
   }
   .category {
-    flex-basis: calc(33.3% - 1rem);
+    flex-basis: calc(31% - 1rem);
     padding: 0.4rem 0.2rem;
   }
   .category p {
@@ -622,5 +630,17 @@ footer {
 @media only screen and (min-width: 1025px) and (max-width: 1100px) {
   .container {
     max-width: 1000px;
+  }
+}
+/*=============== KEYFRAMES ===============*/
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
   }
 }
