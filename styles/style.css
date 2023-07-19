@@ -656,10 +656,20 @@ footer {
     flex-basis: calc(40% - 1rem);
     position: relative;
   }
+  .none {
+    display: none;
+  }
+  .featured-bottom-img {
+    width: 114px;
+    height: 133px;
+  }
+  .category {
+    flex-basis: calc(25% - 1rem);
+  }
 }
-@media only screen and (min-width: 1025px) and (max-width: 1100px) {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
   .container {
-    max-width: 1000px;
+    max-width: 900px;
   }
 }
 /*=============== KEYFRAMES ===============*/
