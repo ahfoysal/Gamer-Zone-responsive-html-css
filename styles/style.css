@@ -512,7 +512,7 @@ footer {
   /*  */
   .cards {
     flex-direction: column;
-    padding: 0 3rem;
+    padding: 0 2.5rem;
     gap: 3rem;
   }
   .cards > .card {
@@ -559,7 +559,7 @@ footer {
     justify-content: center;
   }
   .featured-content:nth-child(3) {
-    width: 10rem;
+    width: 20rem;
     margin: 0 auto;
   }
   .featured2 {
