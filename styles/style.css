@@ -613,27 +613,29 @@ footer {
   }
   .footer {
     gap: 3rem;
-    padding: 0 2rem;
+    padding: 0 0rem;
   }
   .footer-nav .nav-list {
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     align-items: center;
   }
   .footer-nav .nav-list .nav-item {
-    margin: 0 0.5rem;
+    margin: 0 0.1rem;
   }
   .social-icons {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
   }
   .more-nav .nav-list {
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     align-items: center;
   }
   .more-nav .nav-list .nav-item {
-    margin: 0 0.5rem;
+    margin: 0 0.1rem;
   }
   .more-nav .nav-list .nav-item a {
     font-size: 0.75rem;
