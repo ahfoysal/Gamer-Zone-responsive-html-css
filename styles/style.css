@@ -614,7 +614,7 @@ footer {
   .careers-main-content img {
     width: 75%;
   }
-  /*  */
+  /*==============  CATEGORY ===========*/
   .categories {
     gap: 0.5rem 0;
     padding: 0.5rem 0;
@@ -630,6 +630,7 @@ footer {
     height: 2.5rem;
     width: 2.5rem;
   }
+  /*================ FOOTER =================*/
   .footer {
     gap: 3rem;
     padding: 0 0rem;
@@ -728,6 +729,52 @@ footer {
   }
   .nav-item {
     margin: 0 1rem;
+  }
+  /* FEATURED */
+  .featured {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 1rem;
+  }
+  .featured-content {
+    width: auto;
+    margin: 0 auto;
+  }
+  .featured-content h2 {
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .featured-content p {
+    text-align: center;
+  }
+
+  .featured-bottom-img {
+    left: 5%;
+    bottom: -5%;
+    width: 100px;
+    height: 125px;
+  }
+  .featured-img {
+    width: 80%;
+  }
+  .featured-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .featured-content:nth-child(3) {
+    /* width: 20rem; */
+    margin: 0 auto;
+  }
+  .bottom-2 {
+    right: 5%;
+    left: auto;
+    bottom: -5%;
+  }
+  .featured2 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 5rem;
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
