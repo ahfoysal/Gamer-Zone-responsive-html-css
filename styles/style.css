@@ -562,11 +562,10 @@ footer {
     margin: 0 auto;
   }
   .bottom-2 {
-    right: 5%;
+    /* right: 5%; */
+    right: 1%;
     left: auto;
     bottom: -5%;
-    width: 114px;
-    height: 133px;
   }
   .featured2 {
     display: flex;
